@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💾</text></svg>">
+	<title>1.44MB Webring</title>
+</head>
+<body>
+<header>
+	<h1>1.44MB Webring</h1>
+	<pre>╭─────────────╮
+│□│╌╌╌╌╌╌╌╌╌│□│
+│ │╌╌╌╌╌╌╌╌╌│ │
+│ │╌╌╌╌╌╌╌╌╌│ │
+│ └─────────┘ │
+│   ╭─────╮─╮ │
+│   │   ▒ │ │ │
+‵───┴─────┴─┴─╯</pre>
+	<nav>
+		<ul>
+			<li><a href="#info">info</a></li>
+			<li><a href="#join">join</a></li>
+			<li><a href="#members">members</a></li>
+		</ul>
+	</nav>
+</header>
+<main>
+	<section id="info">
+		<p>Whether you use floppy disks to make art or just like to keep them around because they're pretty, this is the webring for you.</p>
+	</section>
+	<section id="join">
+		<h2>Join the webring</h2>
+		<ul>
+			<li>Do you make art with floppy disks?</li>
+			<li>Have you made a physical backup of your website on one (or many) floppy disks?</li>
+			<li>Is there a floppy disk within your reach?</li>
+		</ul>
+		<p>If any of these apply, add the code below to your site:</p>
+		<pre><code>&lt;a href="https://1.44mb.club/prev"&gt;&lt;&lt;&lt;/a&gt; 💾 &lt;a href="https://1.44mb.club/next"&gt;&gt;&gt;&lt;/a&gt;</code></pre>
+		<p>- or -</p>
+		<pre><code>&lt;a href="https://1.44mb.club/random"&gt;💾&lt;/a&gt;</code></pre>
+		<p>Create a <a href="https://github.com/benjifs/1.44MB">pull request on GitHub</a> or email <a href="mailto:join@1.44mb.club">join@1.44mb.club</a> letting me know how you use floppy disks to join the webring.</p>
+	</section>
+	<section id="members">
+		<table><tbody>{{ members }}</tbody></table>
+		<p style="text-align:right"><a href="/webring.opml">OPML</a></p>
+	</section>
+</main>
+<footer>
+	<a class="animate" href="https://1.44mb.club/random">💾</a>
+</footer>
+<style>
+	*{font-family:ui-monospace,'Cascadia Code','Source Code Pro',Menlo,Consolas,'DejaVu Sans Mono',monospace;font-weight:normal}
+	*,*::before,*::after{box-sizing:border-box}
+	body{text-align:center;color:var(--fg);background-color:var(--bg);margin:1em}
+	a{color:inherit}
+	a:hover{color:var(--bg);background-color:var(--fg)}
+	nav ul{list-style:none;padding:0}
+	nav ul li{display:inline-block}
+	li{text-align:left;padding:.5em 0}
+	table{table-layout:fixed;width:100%;max-width:500px;margin:1em auto;border-collapse:collapse;border:1px solid var(--fg)}
+	td{padding:.5em 0}
+	table tr:nth-child(even){background-color:var(--accent)}
+	pre{margin:1em}
+	code{display:inline-block;max-width:100%;overflow:auto;border:1px solid var(--fg);padding:1em}
+	section{max-width:500px;margin:0 auto;padding:.5em 0}
+	:root{--dark:#0f0f0f;--light:#fefefe;--accent:rgba(0,0,0,0.1);--fg:var(--dark);--bg:var(--light)}
+	@media(prefers-color-scheme:dark){
+	:root{--accent:rgba(255,255,255,0.1);--fg:var(--light);--bg:var(--dark)}
+	}
+	.animate{display:inline-block;animation:spin 2s linear 1s infinite;}
+	@keyframes spin{
+	from{transform:rotate3d(0.2, 1, 0.1, 0deg)}
+	to{transform:rotate3d(0.1, 1, 0.1, 360deg)}
+	}
+</style>
+</body>
+</html>

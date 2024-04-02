@@ -1,0 +1,19 @@
+[build]
+	command = "node build.js"
+	publish = "_build"
+
+[functions]
+	directory = "./functions"
+
+[[redirects]]
+	from = "/next"
+	to = "/.netlify/functions/next"
+	status = 200
+[[redirects]]
+	from = "/prev"
+	to = "/.netlify/functions/prev"
+	status = 200
+[[redirects]]
+	from = "/random"
+	to = "/.netlify/functions/random"
+	status = 200
