@@ -32,3 +32,5 @@ const writeOutput = (file, content) => {
 if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR)
 writeOutput('index.html', html)
 writeOutput('webring.opml', opml)
+
+if (fs.existsSync('./static')) fs.cpSync('./static', OUTPUT_DIR, { recursive: true })

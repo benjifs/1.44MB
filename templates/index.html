@@ -9,14 +9,16 @@
 <body>
 <header>
 	<h1>1.44MB Webring</h1>
-	<pre>╭─────────────╮
-│□│╌╌╌╌╌╌╌╌╌│□│
+	<section>
+		<pre>╭─────────────╮
+│∎│╌╌╌╌╌╌╌╌╌│∎│
 │ │╌╌╌╌╌╌╌╌╌│ │
 │ │╌╌╌╌╌╌╌╌╌│ │
 │ └─────────┘ │
 │   ╭─────╮─╮ │
 │   │   ▒ │ │ │
 ‵───┴─────┴─┴─╯</pre>
+	</section>
 	<nav>
 		<ul>
 			<li><a href="#info">info</a></li>
@@ -37,9 +39,9 @@
 			<li>Is there a floppy disk within your reach?</li>
 		</ul>
 		<p>If any of these apply, add the code below to your site:</p>
-		<pre><code>&lt;a href="https://1.44mb.club/prev"&gt;&lt;&lt;&lt;/a&gt; 💾 &lt;a href="https://1.44mb.club/next"&gt;&gt;&gt;&lt;/a&gt;</code></pre>
+		<input type="text" readonly value='<a href="https://1.44mb.club/prev"><<</a> 💾 <a href="https://1.44mb.club/next">>></a>'">
 		<p>- or -</p>
-		<pre><code>&lt;a href="https://1.44mb.club/random"&gt;💾&lt;/a&gt;</code></pre>
+		<input type="text" readonly value='<a href="https://1.44mb.club/random">💾</a>'">
 		<p>Create a <a href="https://github.com/benjifs/1.44MB">pull request on GitHub</a> or email <a href="mailto:join@1.44mb.club">join@1.44mb.club</a> letting me know how you use floppy disks to join the webring.</p>
 	</section>
 	<section id="members">
@@ -51,7 +53,8 @@
 	<a class="animate" href="https://1.44mb.club/random">💾</a>
 </footer>
 <style>
-	*{font-family:ui-monospace,'Cascadia Code','Source Code Pro',Menlo,Consolas,'DejaVu Sans Mono',monospace;font-weight:normal}
+	@font-face{font-family:'mononoki-Regular';src:url(/mononoki-Regular.otf) format('opentype')}
+	*{font-family:'mononoki-Regular'}
 	*,*::before,*::after{box-sizing:border-box}
 	body{text-align:center;color:var(--fg);background-color:var(--bg);margin:1em}
 	a{color:inherit}
@@ -62,8 +65,8 @@
 	table{table-layout:fixed;width:100%;max-width:500px;margin:1em auto;border-collapse:collapse;border:1px solid var(--fg)}
 	td{padding:.5em 0}
 	table tr:nth-child(even){background-color:var(--accent)}
-	pre{margin:1em}
-	code{display:inline-block;max-width:100%;overflow:auto;border:1px solid var(--fg);padding:1em}
+	pre{display:inline-block;margin:1em;text-align:right}
+	input{background:var(--bg);color:var(--fg);border:1px solid var(--fg);outline:none;padding:1em;width:100%;text-align:center}
 	section{max-width:500px;margin:0 auto;padding:.5em 0}
 	:root{--dark:#0f0f0f;--light:#fefefe;--accent:rgba(0,0,0,0.1);--fg:var(--dark);--bg:var(--light)}
 	@media(prefers-color-scheme:dark){
