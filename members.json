@@ -2,7 +2,15 @@
 	{
 		"id": "benji",
 		"url": "https://benji.dog",
-		"rss": "https://benji.dog/feed.xml",
-		"count": 5
+		"rss": "https://benji.dog/feed.xml"
+	},
+	{
+		"id": "faehnri.ch",
+		"url": "https://faehnri.ch/",
+		"rss": "https://faehnri.ch/feed.xml"
+	},
+	{
+		"id": "luke",
+		"url": "https://lukedorny.com"
 	}
 ]

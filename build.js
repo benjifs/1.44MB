@@ -16,7 +16,7 @@ for (const m of members) {
 		opml += `\t\t<outline text="${m.id}" title="${m.id}" type="rss" htmlUrl="${m.url}" xmlUrl="${m.rss}"/>\n`
 	}
 	html += '</td>'
-	html += `<td>${ m.count ? '💾 x ' + m.count : ''}</td>`
+	// html += `<td>${ m.count ? '💾 x ' + m.count : ''}</td>`
 	html += '</tr>\n'
 }
 
