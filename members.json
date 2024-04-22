@@ -14,7 +14,8 @@
 		"url": "https://lukedorny.com"
 	},
 	{
-		"id": "oerrorpage",
-		"url": "https://oerrorpage.neocities.org"
+		"id": "verybittericecream",
+		"url": "https://oerrorpage.neocities.org",
+		"rss": "http://oerrorpage.neocities.org/news.xml"
 	}
 ]
