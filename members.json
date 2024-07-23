@@ -10,6 +10,10 @@
 		"rss": "https://faehnri.ch/feed.xml"
 	},
 	{
+		"id": "limited bitrate",
+		"url": "https://limitedbitrate.neocities.org/"
+	},
+	{
 		"id": "luke",
 		"url": "https://lukedorny.com"
 	},
