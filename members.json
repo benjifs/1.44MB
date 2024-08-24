@@ -25,5 +25,10 @@
 	{
 		"id": "baccyflap",
 		"url": "http://baccyflap.com"
+	},
+	{
+		"id": "luke davis",
+		"url": "https://lukealexdavis.co.uk/",
+		"rss": "https://lukealexdavis.co.uk/omnifeed.xml"
 	}
 ]
