@@ -5,6 +5,15 @@
 		"rss": "https://benji.dog/feed.xml"
 	},
 	{
+		"id": "catskulls",
+		"url": "https://catskulls.neocities.org/"
+	},
+	{
+		"id": "cobra",
+		"url": "https://cobradile.neocities.org/",
+		"rss": "https://cobradile.neocities.org/rss.en.xml"
+	},
+	{
 		"id": "faehnri.ch",
 		"url": "https://faehnri.ch/",
 		"rss": "https://faehnri.ch/feed.xml"
