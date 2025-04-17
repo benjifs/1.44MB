@@ -23,8 +23,9 @@
 		"url": "https://pc98.club"
 	},
 	{
-		"id": "luke",
-		"url": "https://lukedorny.com"
+		"id": "Luke Dorny",
+		"url": "https://lukedorny.com",
+		"rss": "https://lukedorny.com/rss"
 	},
 	{
 		"id": "verybittericecream",
@@ -36,12 +37,16 @@
 		"url": "http://baccyflap.com"
 	},
 	{
-		"id": "luke davis",
+		"id": "Luke Davis",
 		"url": "https://lukealexdavis.co.uk/",
 		"rss": "https://lukealexdavis.co.uk/omnifeed.xml"
 	},
 	{
 		"id": "buster biggins",
 		"url": "https://buster.nekoweb.org/"
+	},
+	{
+		"id": "Willow Rosenberg",
+		"url": "https://petrichoran.wtf"
 	}
 ]
