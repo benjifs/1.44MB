@@ -56,5 +56,10 @@
 	{
 		"id": "tx0",
 		"url": "https://tx0.sh"
+	},
+	{
+		"id": "VE3ZSH",
+		"url": "https://ve3zsh.ca/webrings/index.html",
+		"rss": "https://ve3zsh.ca/til/index.xml"
 	}
 ]
