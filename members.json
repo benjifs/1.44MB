@@ -78,5 +78,15 @@
 		"id": "arjun",
 		"url": "https://arjun9124.github.io",
 		"rss": "https://arjun9124.github.io/index.xml"
+	},
+	{
+		"id": "Greenkitty",
+		"url": "https://clubpeguinfan.neocities.org",
+		"image": "https://clubpeguinfan.neocities.org/buttons/button.gif"
+	},
+	{
+		"id": "ferox",
+		"url": "https://saberonthe.net/",
+		"rss": "https://saberonthe.net/rss.xml"
 	}
 ]
