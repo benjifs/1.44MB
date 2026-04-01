@@ -88,5 +88,10 @@
 		"id": "ferox",
 		"url": "https://saberonthe.net/",
 		"rss": "https://saberonthe.net/rss.xml"
+	},
+	{
+		"id": "jarema",
+		"url": "https://jarema.me/",
+		"rss": "https://jarema.me/rss/en.xml"
 	}
 ]
