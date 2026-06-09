@@ -88,5 +88,10 @@
 		"id": "ferox",
 		"url": "https://saberonthe.net/",
 		"rss": "https://saberonthe.net/rss.xml"
+	},
+	{
+		"id": "Retrograde Road",
+		"url": "https://gensakudan.com/",
+		"rss": "https://gensakudan.com/en/blog/feed.xml"
 	}
 ]
