@@ -90,6 +90,11 @@
 		"rss": "https://saberonthe.net/rss.xml"
 	},
 	{
+		"id": "jarema",
+		"url": "https://jarema.me/",
+		"rss": "https://jarema.me/rss/en.xml"
+  },
+  {
 		"id": "Retrograde Road",
 		"url": "https://gensakudan.com/",
 		"rss": "https://gensakudan.com/en/blog/feed.xml"
