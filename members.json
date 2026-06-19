@@ -93,5 +93,9 @@
 		"id": "Retrograde Road",
 		"url": "https://gensakudan.com/",
 		"rss": "https://gensakudan.com/en/blog/feed.xml"
+	},
+	{
+		"id": "Interstellar Shareware",
+		"url": "https://interstellarshareware.net/webrings/"
 	}
 ]
