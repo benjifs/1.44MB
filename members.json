@@ -47,7 +47,8 @@
 	},
 	{
 		"id": "HAL",
-		"url": "https://hal.nekoweb.org/"
+		"url": "https://hal.nekoweb.org/",
+		"rss": "https://hal.nekoweb.org/rss.xml"
 	},
 	{
 		"id": "Willa",
