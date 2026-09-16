@@ -115,5 +115,10 @@
 	{
 		"id": "ペットの日記",
 		"url": "https://petdiary.neocities.org"
+	},
+	{
+		"id": "LOGiCFACE",
+		"url": "https://logicface.co.uk",
+		"rss": "https://logicface.co.uk/feed/"
 	}
 ]
