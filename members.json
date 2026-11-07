@@ -115,5 +115,9 @@
 	{
 		"id": "ペットの日記",
 		"url": "https://petdiary.neocities.org"
-	}
+	},
+  	{
+    	"id": "Sansovini Hub",
+    	"url": "https://hub.sansovini.it/"
+  	}
 ]
