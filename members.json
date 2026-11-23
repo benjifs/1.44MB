@@ -113,6 +113,11 @@
 		"url": "https://arc-x.org/"
 	},
 	{
+		"id": "Schmookey",
+		"url": "https://schmookey.xyz/",
+		"rss": "https://schmookey.xyz/feed.xml"
+	},
+	{
 		"id": "ペットの日記",
 		"url": "https://petdiary.neocities.org"
 	}
