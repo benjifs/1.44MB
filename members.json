@@ -113,9 +113,9 @@
 		"url": "https://arc-x.org/"
 	},
 	{
-		"id": "Schmookey"
-		"url": "https://schmookey.xyz/"
-		"rss": "https://schmookey.xyz/sitemap.xml"
+		"id": "Schmookey",
+		"url": "https://schmookey.xyz/",
+		"rss": "https://schmookey.xyz/feed.xml"
 	},
 	{
 		"id": "ペットの日記",
